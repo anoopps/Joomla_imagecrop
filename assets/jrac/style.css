@@ -1,0 +1,202 @@
+
+/* The pane holding the image */
+.pane>*  {
+  float:left;
+}
+.pane>table {
+  margin:1em;
+}
+.pane>table td {
+  text-align: right;
+  padding-right: .5em;
+}
+pre.code {
+  padding:1em;
+  margin:0;
+  background-color: #eee;
+  border:1px dashed #ccc;
+}
+
+/* Override some jrac css */
+.jrac_viewport {
+  width:440px;
+  height:330px;
+}
+
+
+
+.crop-wrap{
+	border:solid 1px #697c8b;
+	padding:40px;
+	background:#fff;
+	width:885px!important;
+	display:inline-block;
+        position:relative;
+}
+.dimensions input{
+    width:44%;
+}
+a.set-dimension{
+    float:right;
+    color:#eb515f;
+}
+.hide-item{
+  display:none;
+}
+.crop-wrap tr:hover td{
+  background:#fff!important;
+}
+.crop-wrap .jrac_viewport{
+  border:solid 1px #ccc!important;
+  background:none!important;
+}
+.jrac_zoom_slider{
+  position:absolute;
+  left:510px;
+  top:66px;
+  width:320px;
+}
+img#cropimage{
+  max-width:none;
+}
+table.coords{
+  margin:0px 0px 30px 30px;
+}
+table.coords input[type="text"]{
+  margin-left:25px;
+  width:145px;
+  background:#fff!important;
+}
+table.coords tr td:first-child input[type="text"]:first-child{
+  margin-left:0px;
+}
+table.coords label{
+  color: #364757 !important;
+    font-family: "GothamBold";
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+    text-align:left;
+}
+.crop-wrap a.btn.createimage{
+  float:right;
+  background:#697c8b!important;
+  border-radius:0px!important;
+  text-transform:uppercase;
+  border:none;
+  color:#fff;
+  font-family: "GothamBold";
+  font-style:normal;
+  position:absolute;
+  right:50px;
+  bottom:40px;
+}
+.crop-wrap .ui-slider-horizontal{
+  height:4px;
+  border:none;
+  background:#364757;
+}
+.crop-wrap .ui-slider-horizontal .ui-slider-handle{
+  top:-0.4em;
+  border-radius:20px;
+  border:solid 2px #364757;
+  background:#fff;
+  width:15px;
+  height:15px;
+  position:relative;
+}
+.crop-wrap .ui-slider-horizontal .ui-slider-handle:after{
+  content:'';
+  position:absolute;
+  left:3px;
+  top:3px;
+  width:5px;
+  height:5px;
+  background:#364757;
+  border-radius:30px;
+}
+
+.container-title span.icon-imagecropper{
+  background:url(../images/crop.jpg) no-repeat center;
+  width:40px;
+  float:left;
+  height:40px;
+  margin-right:15px!important;
+}
+.container-title h1{
+  line-height:40px;
+}
+a.refreshme{
+  width:30px;
+  height:30px;
+  background:url(../images/refresh.jpg) no-repeat center;  
+  display:block;
+  overflow:hidden;
+  position:absolute;
+  bottom:40px;
+  left:510px;
+}
+.select-crop-img{
+  margin-bottom:30px;
+}
+.select-crop-img a.btn{
+  border:none;
+  color:#fff;
+  text-transform:uppercase;
+  font-style:normal;
+  line-height:23px;
+  padding-left:33px;
+  background:url(../images/select-img.jpg) no-repeat 5px 4px #697c8b;  
+}
+a.set-img{
+  font-family: "GothamBold";
+  color: #eb515f;
+  text-decoration:underline!important;
+  font-size:14px;
+}
+.jrac_container{
+  margin:0px!important;
+}
+.jrac_crop{
+ border-color:#eb515f!important;
+ box-shadow:0px 0px 0px 300px rgba(255,255,255,0.6);
+}
+.crop-wrap .message{
+  position:absolute;
+  right:135px;
+  bottom:44px;
+  color: #eb515f;
+    font-family: "GothamBold";
+    font-size: 14px;
+}
+
+span.zoomin-slider{
+  width:16px;
+  height:16px;
+  background:url(../images/zoom-in.jpg) no-repeat center;
+  display:block;
+  float:right;
+}
+span.zoomout-slider{
+  width:16px;
+  height:16px;
+  background:url(../images/zoom-out.jpg) no-repeat center;
+  display:block;
+  float:left;
+}
+.refreshme.disabled-refresh{
+  pointer-events:none;
+  opacity:0.3;
+}
+.disabled-reclick{
+  pointer-events:none;
+  opacity:0.3;
+}
+span.notification_img{
+  color:#364757;
+  display: inline-block;
+  font-size:14px ;
+  padding: 0 0 20px 30px;
+  width: 45%;
+  font-weight: 100;
+  font-family: "GothamBold";
+}
